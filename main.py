@@ -13,7 +13,7 @@ line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 
 
 def main():
-    message = TextSendMessage(text="テスト一か月だよ\nそろそろ勉強しよう📚!!")
+    message = TextSendMessage(text="テスト一か月だよ\nそろそろ勉強しよう📚")
 
     line_bot_api.push_message(USER_ID,messages=message)
 
